@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500i,700|Playfair+Display:400,400i,700');
+html, body {margin: 0; height: 100%;}
+body{
+	margin: 0;
+	padding: 0;
+	color: inherit;
+	list-style: none;
+	text-decoration: none;
+	font-family: "Montserrat Alternates", "Playfair Display", sans-serif;	
+	background-image: url("../images/b.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.wrapper{
+	width: 100%;
+	text-align: center;
+}
+.header{
+	background-size: cover;
+	width: calc(100vw - 100px);
+	height: calc(125vh - 140px);
+	padding: 50px 70px;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+.header-menu-a{
+	display: inline-block;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 1%;
+	padding-right: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: #521945;
+	border-radius: 25px;
+	padding: 15px;
+	margin-right: 2%;
+}
+.purple-btn, input[type=submit]{
+	border-radius: 25px;
+	color: white;
+	background-color: #521945;
+	padding: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+	font-family: "Montserrat Alternates", "Playfair Display", sans-serif;
+}
+.sidebar-menu{
+	width: 25%;
+	float: right;
+	height: 70vh;
+	background-color: rgb(245, 233, 240);
+	border-radius: 15px;
+	margin-left: 3%;
+	border: 2px solid #c3c3d5;
+}
+.sidebar-menu-nav{
+  position: relative;
+  margin: 0 20%;
+  text-align: right;
+  top: 45%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+.sidebar-menu-a{
+	position: relative;
+	font-size: 10px;
+    margin: 3.2em 0;
+	line-height: 5em;	
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.4em;
+	display: block;
+	transition: all ease-out 300ms;
+	color: #521945;
+}
+.sidebar-menu-a:link, .sidebar-menu-a:visited, .sidebar-menu-a:active {
+	width: 80%; 
+	padding-left: 40px; 
+}
+.sidebar-menu-a:hover{
+	font-weight:bold; 
+	text-decoration:none; 
+	color: #88b2aa;
+	display:block; 
+	width: 80%; 
+	padding-left: 50px;  
+	text-transform: uppercase;
+}
+.sidebar-menu-a::after{
+	content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.2em;
+    background: black;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #912f56, #c3c3d5)
+}
+.main{
+	float: left;
+    width: 70%;
+    text-align: center;
+}
+.footer{
+	background-color: #521945;
+	clear: both;
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+}
+
+.formProductEdit{
+	width: 60%;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #521945;
+    border-radius: 35px;
+	background-color: rgb(245, 233, 240);
+	margin-bottom: 8%;
+}
+.form-row{
+	padding: 5px;
+}
+.left{
+	padding-top: 5%;
+	width: 35%;
+	float: left;
+} 
+textarea{
+	border: 1px solid #521945;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: "Montserrat Alternates", "Playfair Display", sans-serif;
+    background-image: url("../images/paper.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+input[type=text], select, #passid{
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Montserrat Alternates", "Playfair Display", sans-serif;
+  text-align: center;
+}
+.table-list, .product-info-table{
+	background-color: rgb(245, 233, 240);
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	border-radius: 15px;
+	border: 1px solid #521945;
+	margin-bottom: 3%;
+}
+.table-list tr th{
+	padding: 10px;
+}
+.table-list tr:nth-child(even){
+	background-color: #c3c3d5;
+	color: #0d090a;
+}
+td {
+	padding: 15px;
+  }
+.table-view{
+	background-color: rgb(245, 233, 240);
+	border-radius: 15px;
+	text-align: center;
+	padding: 10px;
+	margin-left: 5%;
+	border: 1px solid #521945;
+	margin-bottom: 8%;
+}
+.formLogin{
+	width: 60%;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #521945;
+    border-radius: 35px;
+	background-color: rgb(245, 233, 240);
+}
+#navigation{
+	background-color: #c3c3d5;
+	padding: 15px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.customError, .errorBlock, .infoBlock{
+	background-color: #912f56;
+	padding: 15px;
+	color: white;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 5px;
+
+}
+.product-type{
+	color: #521945; 
+	font-weight: bold; 
+	margin-bottom: 5px;
+}
+.product-price{
+	margin-bottom: 5px;
+}
